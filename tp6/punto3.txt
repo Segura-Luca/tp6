@@ -1,0 +1,25 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1></h1>
+<p>
+<?php
+$hacefrio = 15;
+$respuesta = "";
+
+if ($hacefrio < 20) {
+    $respuesta = "hace frio ";
+} 
+else {
+
+    $respuesta = "No hace frio ";
+
+}
+
+echo $respuesta;
+?>
+</p>
+</body>
+</html>

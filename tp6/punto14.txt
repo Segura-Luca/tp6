@@ -1,0 +1,18 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<p>
+<?php
+$num = rand(1, 100);
+echo "el numero es $num<br>";
+
+if ($num <= 50) {
+    echo "el numero es menor o igual a 50.";
+} 
+else {echo "el numero es > a 50."; }
+
+?>
+</p>
+</body>

@@ -1,0 +1,19 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1></h1>
+<p>
+<?php
+$variable1 =1;
+$variable2 =2;
+$variable3 =3;
+
+$cadena = "Las variables son: variable1 = $variable1, variable2 = $variable2, y variable3 = $variable3.";
+
+echo $cadena;
+?>
+</p>
+</body>
+</html>

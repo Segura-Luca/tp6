@@ -1,0 +1,21 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+
+<p>
+<?php
+
+$tabla = 4;
+
+for ($i = 1; $i <= 10; $i++) {
+
+    $resultado = $tabla * $i;
+    echo "$tabla x $i = $resultado<br> ";
+
+}
+?>
+</p>
+</body>
+</html>
